@@ -1,0 +1,7 @@
+<scroll-view scrollY="{{true}}">
+    <view class="t">1、复制短视频链接（这里以抖音为例）</view>
+    <image mode="widthFix" src="../../images/guide1.jpeg" style="width:100%;"></image>
+    <image mode="widthFix" src="../../images/guide2.jpeg" style="width:100%;margin-top:20rpx"></image>
+    <view class="t">2、打开本小程序进行提取（注：复制链接后无需自己提取http链接，直接全部粘贴即可，软件会自动识别）</view>
+    <image mode="widthFix" src="../../images/guide3.jpeg" style="width:100%;margin-bottom:20rpx"></image>
+</scroll-view>

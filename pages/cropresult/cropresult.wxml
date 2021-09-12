@@ -1,0 +1,19 @@
+<scroll-view scrollY="{{true}}">
+    <view class="container">
+        <video src="{{videoPath}}"></video>
+        <view class="info-container">
+            <text>视频长度：{{duration}}s</text>
+            <text>视频大小：{{durasizetion}}kb</text>
+        </view>
+        <view class="result-container">
+            <view bindtap="saveTap" class="save">
+                <image src="../../images/phone.png" style="height:31px;width:31px;"></image>
+        保存到相册
+      </view>
+            <view bindtap="compressTap" class="copy">
+                <image src="../../images/link.png" style="height:31px;width:31px;"></image>
+        压缩视频
+      </view>
+        </view>
+    </view>
+</scroll-view>

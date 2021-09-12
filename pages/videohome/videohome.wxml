@@ -1,0 +1,39 @@
+<scroll-view scrollY="{{true}}">
+    <view class="adContainer">
+        <ad adTheme="white" adType="video" unitId=""></ad><!--视频广告-->
+    </view>
+    <view bindtap="videoEditTap" class="mini-container">
+        <image class="logo" mode="widthFix" src="../../images/video_cut.png"></image>
+        <view class="text-container">
+            <text class="title">视频剪裁</text>
+            <text class="subtitle">自由截取本地视频片段</text>
+        </view>
+        <image class="arrow-right" src="../../images/arrow_right.png"></image>
+    </view>
+    <view bindtap="compressTap" class="mini-container">
+        <view class="logo-view">
+            <image mode="widthFix" src="../../images/video_compress.png" style="width:60rpx"></image>
+        </view>
+        <view class="text-container">
+            <text class="title">视频压缩</text>
+            <text class="subtitle">解决视频体积太大上传慢、上传不了</text>
+        </view>
+        <image class="arrow-right" src="../../images/arrow_right.png"></image>
+    </view>
+    <view bindtap="md5Tap" class="mini-container">
+        <image class="logo" mode="widthFix" src="../../images/video_md5.png"></image>
+        <view class="text-container">
+            <text class="title">视频MD5修改</text>
+            <text class="subtitle">有效解决视频的唯一性，防重检测</text>
+        </view>
+        <image class="arrow-right" src="../../images/arrow_right.png"></image>
+    </view>
+   <!-- <view bindtap="markTap" class="mini-container">
+      <image class="logo" mode="widthFix" src="../../images/qsy.png"></image>
+        <view class="text-container">
+            <text class="title">短视频去水印</text>
+            <text class="subtitle">一键去除短视频中的水印</text>
+        </view>
+        <image class="arrow-right" src="../../images/arrow_right.png"></image>
+    </view>-->
+</scroll-view>

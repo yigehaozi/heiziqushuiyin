@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/videohome/videohome",
+    "pages/compress/compress",
+    "pages/cropresult/cropresult",
+    "pages/guide/guide",
+    "pages/question/question",
+    "pages/updatemd5/updatemd5"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "视频去水印",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#1D78F8",
+    "borderStyle": "black",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/nav_home.png",
+        "selectedIconPath": "images/nav_home_selected.png"
+      },
+      {
+        "pagePath": "pages/videohome/videohome",
+        "text": "其他工具",
+        "iconPath": "images/nav_minis.png",
+        "selectedIconPath": "images/nav_minis_selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

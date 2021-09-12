@@ -1,0 +1,357 @@
+scroll-view {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    flex-direction: column;
+    padding: 0;
+    background: #fff;
+}
+
+.container,.top-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.top-container {
+    margin-top: 20rpx;
+    height: 75rpx;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+}
+
+.open-container {
+    width: 23%;
+    height: 100%;
+    position: relative;
+    margin-right: 10rpx;
+}
+
+.btn-container {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 28rpx;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(204,221,221,.87);
+}
+
+.btn-container,.open-btn {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.open-btn {
+    opacity: 0;
+}
+
+.in {
+    width: 100%;
+}
+
+.in,.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container {
+    background: rgb(255, 255, 255);
+    margin-top: 40rpx;
+    height: 100rpx;
+    width: 94%;
+    border: 2px solid #050505;
+    border-radius: 25px;
+    padding-left: 40rpx;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.input-container input {
+    height: 100%;
+    width: 75%;
+    padding-right: 10rpx;
+    box-sizing: border-box;
+}
+
+.input-container view {
+    height: 100%;
+    width: 25%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #9b9a9a;
+    background: #000000;
+    flex-direction: column;
+    font-size: 34rpx;
+    color: #fff;
+}
+
+.desc-container,.input-container view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc-container {
+    width: 88%;
+    margin-top: 20rpx;
+    flex-direction: row;
+}
+
+.desc {
+    font-size: 30rpx;
+    color: #333;
+    width: 85%;
+}
+
+.copy-desc {
+    width: 90rpx;
+    height: 90rpx;
+    flex-direction: column;
+    font-size: 25rpx;
+    color: #fff;
+    border-radius: 500px;
+    background: #000000;
+    box-shadow: 0 2px 2px 0 rgba(204,221,221,.87);
+}
+
+.copy-desc,.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container {
+    width: 100%;
+    flex-direction: row;
+}
+
+.result-video {
+    height: 350rpx;
+    width: 92%;
+    border-radius: 15px;
+    margin-top: 40rpx;
+}
+
+.op-container {
+    margin-top: 40rpx;
+    height: 70rpx;
+    width: 100%;
+    flex-direction: row;
+}
+
+.op-container,.paste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paste {
+    background: #000000;
+    margin-right: 20rpx;
+}
+
+.clear,.paste {
+    height: 100%;
+    width: 45%;
+    border-radius: 50px;
+    flex-direction: column;
+    font-size: 30rpx;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(204,221,221,.87);
+}
+
+.clear {
+    background: rgb(117, 117, 117);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-container {
+    margin-top: 40rpx;
+    margin-bottom: 40rpx;
+    height: 100rpx;
+    width: 92%;
+}
+
+.result-container,.save {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.save {
+    background: #000000;
+    margin-right: 40rpx;
+}
+
+.copy,.save {
+    height: 100%;
+    width: 40%;
+    border-radius: 50px;
+    font-size: 30rpx;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(204,221,221,.87);
+}
+
+.copy {
+    background: rgb(106, 106, 107);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    height: 1px;
+    background: rgba(230,221,221,.87);
+    width: 100%;
+}
+
+.question-container {
+    width: 100%;
+    height: 100rpx;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    box-sizing: border-box;
+}
+
+.adContainer {
+    width: 100%;
+    margin-top: 0rpx;
+    border-radius: 0;
+}
+
+.tapbtn1[plain]{
+    padding: 0;
+    border:none;   
+    width: 100%;
+    height: 20%;
+}
+.mini-container {
+    height: 130rpx;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 0rpx 20rpx 0rpx 30rpx;
+    box-sizing: border-box;
+    margin-top: 20rpx;
+}
+
+.logo-view,.mini-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.logo-view {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.logo-view,.text-container {
+    justify-content: center;
+}
+
+.text-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-right {
+    height: 30rpx;
+    width: 25rpx;
+    margin-right: 20rpx;
+}
+
+.title {
+    color: #000;
+    font-size: 33rpx;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 26rpx;
+    margin-top: 10rpx;
+}
+
+.bottom-container {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 30rpx;
+}
+
+.bottom-container,.computerBtn {
+    display: flex;
+    align-items: center;
+}
+
+.computerBtn {
+    width: 100rpx;
+    height: 100rpx;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cImage {
+    height: 45rpx;
+    width: 45rpx;
+}
+
+.cText {
+    color: #666;
+    font-size: 24rpx;
+}
+
+.shareContainer {
+    width: 100rpx;
+    height: 100rpx;
+    position: relative;
+}
+
+.shareBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.share,.shareBtn {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.share {
+    opacity: 0;
+}
+
+.logo {
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 25px;
+}

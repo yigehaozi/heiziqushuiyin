@@ -1,0 +1,34 @@
+scroll-view {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
+.title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40rpx 0 20rpx 40rpx;
+    box-sizing: border-box;
+}
+
+.title-container text {
+    margin-left: 10rpx;
+    font-size: 35rpx;
+}
+
+.line {
+    width: 90%;
+    background: #666;
+    height: 1px;
+    margin-left: 30rpx;
+}
+
+.des {
+    width: 100%;
+    padding: 0 40rpx 20rpx;
+    box-sizing: border-box;
+    font-size: 30rpx;
+    color: #666;
+}

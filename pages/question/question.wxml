@@ -1,0 +1,37 @@
+<scroll-view scrollY="{{true}}">
+    <view class="title-container">
+        <image src="../../images/question.png" style="height:45rpx;width:45rpx;"></image>
+        <text>支持哪些平台</text>
+    </view>
+    <view class="line"></view>
+    <view class="des">
+        <image bindtap="previewPlatformTap" mode="widthFix" src="../../images/platform.png" style="width:100%;margin-top:20rpx"></image>
+    </view>
+    <view class="title-container">
+        <image src="../../images/question.png" style="height:45rpx;width:45rpx;"></image>
+        <text>为什么会去水印失败</text>
+    </view>
+    <view class="line"></view>
+    <view class="des">
+        <text>
+      去水印解析成功率为99%左右,解析失败或点击解析无反应,主要为以下原因:
+      1.原视频被屏蔽/删除,无法解析;
+      2.原视频为私密视频,非视频作者他人不可见,无法解析;
+      3.本工具去除视频平台下载水印,某些水印为视频作者上传平台前编辑视频时自行加上的,这种情况作者水印属于视频内容一部分,无法去除;
+      4.原视频时长超长,对于一般5分钟左右及以下的视频解析成功率99%,某些视频平台视频20-30分钟以上会导致解析失败;
+    </text>
+    </view>
+    <view class="title-container">
+        <image src="../../images/question.png" style="height:45rpx;width:45rpx;"></image>
+        <text>为什么会下载失败</text>
+    </view>
+    <view class="line"></view>
+    <view class="des">
+        <text>
+      1.由于手机系统及微信的安全机制,保存视频到相册需要手动授权，弹出权限请求框，请点击确认。如果不小心点击了拒绝，可以进入小程序设置重新授权;
+      2.微信小程序限制视频大小不能超过15M,所以超过这个大小的视频,需要解析成功后,复制无水印链接到浏览器下载；
+      ——如果您是安卓手机,直接复制无水印链接,进入任意一个浏览器下载即可。
+      ——如果您是苹果手机,需要下载软件documents才能在浏览器中下载视频。
+    </text>
+    </view>
+</scroll-view>

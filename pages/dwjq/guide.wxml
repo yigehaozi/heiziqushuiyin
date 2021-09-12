@@ -1,0 +1,19 @@
+<view class="dwjq">
+  <canvas canvas-id="myQrcode" style="width: 100%; height: 180px;">
+  </canvas>
+  <button class="downfile1" bindtap="downfile" data-value="myQrcode"
+    style="margin-top: 100rpx; position: relative; left: 0rpx; top: 562rpx; width: 472rpx; height: 88rpx; display: block; box-sizing: border-box">保存二维码</button>
+  <image
+    style="position: relative; left: 125rpx; top: -334rpx; width: 500rpx; height: 500rpx; display: inline-block; box-sizing: border-box"
+    src="/images/dwjq.png" />
+  <text class="dwjqwz1" style="position: relative; left: 0rpx; top: -344rpx">添加客服小姐姐微信邀你入群</text>
+
+
+  <text style="position: relative; left: 311rpx; top: -328rpx">入群福利</text>
+
+  <image
+    style="position: relative; left: 103rpx; top: -318rpx; width: 80rpx; height: 66rpx; display: inline-block; box-sizing: border-box"
+    src="/images/rqfl.png" />
+
+  <text class="dwjqwz2" style="position: relative; top: -282rpx; left: 161rpx; width: 428rpx; height: 66rpx; display: flex; box-sizing: border-box">加入群聊，有很多小姐姐陪你聊天,以及更多新功能体验，反馈建议交流等，保存二维码，通过微信扫一扫加入我们群聊吧~</text>
+</view>

@@ -1,0 +1,27 @@
+<scroll-view scrollY="{{true}}">
+    <view class="container">
+        <view class="info-container">
+            <text>原视频，视频大小：{{originSize}}M</text>
+        </view>
+        <video src="{{videoPath}}"></video>
+        <view class="result-container">
+            <view bindtap="reChooseTap" class="choose">
+        重新选择
+      </view>
+            <view bindtap="compressTap" class="copy">
+        压缩视频
+      </view>
+        </view>
+        <view class="compress-container" wx:if="{{compressVideoPath}}">
+            <view class="info-container" style="margin-top:40rpx">
+                <text>压缩后视频，视频大小：{{compressedSize}}M</text>
+            </view>
+            <video src="{{compressVideoPath}}"></video>
+        </view>
+        <view class="result-container" wx:if="{{compressVideoPath}}">
+            <view bindtap="saveTap" class="save">
+        保存视频
+      </view>
+        </view>
+    </view>
+</scroll-view>

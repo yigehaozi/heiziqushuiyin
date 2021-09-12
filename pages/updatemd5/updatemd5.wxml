@@ -1,0 +1,22 @@
+<scroll-view scrollY="{{true}}">
+    <view class="result-container" wx:if="{{videoPath==''}}">
+        <view bindtap="chooseTap" class="choose">
+      选择视频
+    </view>
+    </view>
+    <video src="{{videoPath}}" wx:if="{{videoPath}}"></video>
+    <view class="info-container" wx:if="{{videoPath}}">
+        <view>视频时间：{{originDuration}}</view>
+        <view>视频大小：{{originSize}}M</view>
+        <view>修改前MD5：{{originMd5}}</view>
+        <view>修改后MD5：{{updateMd5}}</view>
+    </view>
+    <view class="result-container" wx:if="{{videoPath}}">
+        <view bindtap="reChooseTap" class="choose">
+      重新选择
+    </view>
+        <view bindtap="saveTap" class="save">
+      保存视频
+    </view>
+    </view>
+</scroll-view>
